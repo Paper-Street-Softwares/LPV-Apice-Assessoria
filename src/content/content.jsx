@@ -53,7 +53,7 @@ export const infos = {
   name: " Ápice Assessoria de Trânsito",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "apiceassessoriadetransito.com.br", // Sem "www"
   phone: {
     ddd: "44",
     firstPart: "99906", // Apenas os 5 primeiros números (incluindo o 9)
