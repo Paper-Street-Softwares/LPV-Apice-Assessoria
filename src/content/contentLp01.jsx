@@ -272,29 +272,33 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "A ESCOLHA CERTA",
+      title: "Por que somos referência na defesa dos seus direitos no trânsito",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Especialistas em Direito de Trânsito",
+        description:
+          "Domínio completo do Código de Trânsito Brasileiro e de suas aplicações práticas em cada defesa.",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Experiência e Atualização Constante",
+        description:
+          "Mais de duas décadas de atuação em processos administrativos e judiciais, com participação ativa em congressos e eventos da área.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Atuação Direta junto a Órgãos e Tribunais",
+        description:
+          "Presença próxima aos DETRANs, CETRANs e instâncias judiciais, acompanhando decisões e garantindo defesas sempre atualizadas.",
       },
       card4: {
         icon: <BadgeDollarSign width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Estratégias Personalizadas e Eficazes",
+        description:
+          "Cada caso é único. Desenvolvemos defesas sob medida, com histórico consistente de reversão de multas e suspensão da CNH.",
       },
     },
   },
