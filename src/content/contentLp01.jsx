@@ -218,21 +218,31 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "Excelência em Direito de Trânsito",
+      title:
+        "Defendemos seus direitos no trânsito com comprometimento e estratégia.",
     },
     paragraph: (
       <p>
-        A_Definir
+        Somos especialistas em defesas administrativas e judiciais contra
+        infrações, multas, suspensões e cassações da CNH. Nosso trabalho vai
+        além do básico: oferecemos um atendimento estratégico e personalizado,
+        analisando cada detalhe do seu caso.
         <br />
         <br />
-        A_Definir
+        Combinamos conhecimento técnico, experiência sólida e soluções
+        inovadoras para garantir resultados justos e concretos.
         <br />
         <br />
-        A_Definir
+        Nossa trajetória é marcada por uma atuação firme, próxima e eficiente,
+        sempre colocando a proteção dos seus direitos em primeiro lugar.
+        <br />
+        <br />
+        Se você procura um escritório que realmente entende o seu problema e
+        luta por você, a Ápice Assessoria de Trânsito é a escolha certa.
       </p>
     ),
-    buttonLabel: "A_Definir",
+    buttonLabel: "Falar com um consultor agora",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
