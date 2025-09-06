@@ -39,10 +39,15 @@ import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.webp";
-import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.webp";
-import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.webp";
-import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
+import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
+import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
+import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
+import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import imgTestimonial5 from "../assets/imgs/testimonials/deposition5.png";
+import imgTestimonial6 from "../assets/imgs/testimonials/deposition6.png";
+import imgTestimonial7 from "../assets/imgs/testimonials/deposition7.png";
+import imgTestimonial8 from "../assets/imgs/testimonials/deposition8.png";
+
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
@@ -561,9 +566,10 @@ const content = {
       footerNavegacaoText: "NAVEGAÇÃO",
     },
     testimonials: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "CASOS DE SUCESSO",
+      title: "Histórias reais de quem virou o jogo",
+      subtitle:
+        "Conheça clientes que enfrentaram situações difíceis no trânsito e conseguiram reverter tudo com a nossa ajuda.",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -579,6 +585,22 @@ const content = {
         },
         img4: {
           img: imgTestimonial4,
+          alt: "Imagem de feedback",
+        },
+        img4: {
+          img: imgTestimonial5,
+          alt: "Imagem de feedback",
+        },
+        img4: {
+          img: imgTestimonial6,
+          alt: "Imagem de feedback",
+        },
+        img4: {
+          img: imgTestimonial7,
+          alt: "Imagem de feedback",
+        },
+        img4: {
+          img: imgTestimonial8,
           alt: "Imagem de feedback",
         },
       },
