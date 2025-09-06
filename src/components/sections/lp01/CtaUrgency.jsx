@@ -24,7 +24,7 @@ export default function CtaUrgency() {
         <SectionArea className="" paddingbot={false} paddingtop={true}>
           <SectionWrapper>
             <SectionHeader
-              className="text-center"
+              className="text-center mb-8"
               miniTitle={contentLp01.ctaUrgency.sectionHeader.miniTag}
               sectionHeaderTitle={contentLp01.ctaUrgency.sectionHeader.title}
               sectionHeaderSubtitle={
@@ -37,6 +37,7 @@ export default function CtaUrgency() {
             />
             <MotionDivDownToUp>
               <Button
+                className=""
                 aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                 label={contentLp01.ctaUrgency.buttonLabel}
                 animation

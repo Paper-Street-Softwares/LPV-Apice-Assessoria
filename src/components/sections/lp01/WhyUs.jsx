@@ -11,7 +11,7 @@ export default function WhyUs({}) {
         <SectionWrapper>
           <SectionHeader
             miniTitle={contentLp01.whyUs.sectionHeader.miniTag}
-            className="text-center"
+            className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
             sectionHeaderTitle={contentLp01.whyUs.sectionHeader.title}
             color=""
             titleColorSet="text-secondary"

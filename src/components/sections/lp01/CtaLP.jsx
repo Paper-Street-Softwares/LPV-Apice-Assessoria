@@ -24,7 +24,7 @@ export default function AboutParalaxeLP() {
         <SectionArea className="">
           <SectionWrapper>
             <SectionHeader
-              className="text-center"
+              className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
               miniTitle={contentLp01.cta.sectionHeader.miniTag}
               sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
               sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}

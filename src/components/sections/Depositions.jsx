@@ -10,7 +10,7 @@ export default function Depositions() {
     <div className="relative">
       <SectionArea className="" paddingtop={false}>
         <SectionHeader
-          className="text-center"
+          className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
           miniTitle={content.texts.testimonials.miniTag}
           sectionHeaderTitle={content.texts.testimonials.title}
           sectionHeaderSubtitle={content.texts.testimonials.subtitle}
