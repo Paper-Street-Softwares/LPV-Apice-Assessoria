@@ -333,7 +333,7 @@ const contentLp01 = {
       title: "Fale com a Ápice Assessoria de Trânsito agora mesmo",
       subtitle: (
         <p className="opacity-80">
-          Envie seus dados e receba uma análi se agora mesmo: <br />
+          Envie seus dados e receba uma análise agora mesmo: <br />
           <br />
           <span className="text-white/80">- Nome</span>
           <br />
