@@ -16,6 +16,7 @@ import { useEffect } from "react";
 import StepsLpv from "../components/sections/lp01/StepsLpv";
 import Vídeo from "../components/sections/lp01/Vídeo";
 import Depositions from "../components/sections/Depositions";
+import CtaUrgency from "../components/sections/lp01/CtaUrgency";
 
 export default function Lp01() {
   useEffect(() => {
@@ -44,6 +45,7 @@ export default function Lp01() {
   return (
     <div>
       <HeroLP fullImg={true} />
+      <CtaUrgency />
       <FeaturesLP />
       <AboutParalaxeLP logo={true} />
       <WhyUs />

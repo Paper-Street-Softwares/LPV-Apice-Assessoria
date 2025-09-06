@@ -309,6 +309,23 @@ const contentLp01 = {
       subtitle: "A_Definir",
     },
   },
+  ctaUrgency: {
+    bgImg: bgImg,
+    sectionHeader: {
+      miniTag: "NÃO DEIXE ESSA SITUAÇÃO PIORAR",
+      title:
+        "Grande parte das suspensões e cassações acontece porque o motorista não sabe como se defender corretamente.",
+      subtitle: (
+        <p className="opacity-80">
+          Na Ápice Assessoria de Trânsito, utilizamos o Código de Trânsito
+          Brasileiro, as Resoluções do CONTRAN e jurisprudências recentes para
+          proteger o seu direito de dirigir.
+        </p>
+      ),
+    },
+    buttonLabel: "Se houver chance de cancelar, a Ápice vai cancelar",
+    ctaButtonAriaLabel: "Botão de Contato",
+  },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
@@ -331,7 +348,7 @@ const contentLp01 = {
         </p>
       ),
     },
-    buttonLabel: "A_Definir",
+    buttonLabel: "Falar com um Especialista",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
