@@ -333,17 +333,17 @@ const contentLp01 = {
       title: "Fale com a Ápice Assessoria de Trânsito agora mesmo",
       subtitle: (
         <p className="opacity-80">
-          Envie seus dados e receba uma análise agora mesmo: <br />
+          Envie seus dados e receba uma análi se agora mesmo: <br />
           <br />
-          <span className="text-bgSectionDark"> Nome</span>
-          <br />
-          <br />
-          <span className="text-bgSectionDark"> WhatsApp</span>
+          <span className="text-white/80">- Nome</span>
           <br />
           <br />
-          <span className="text-bgSectionDark">
+          <span className="text-white/80">- WhatsApp</span>
+          <br />
+          <br />
+          <span className="text-white/80">
             {" "}
-            Placa do veículo ou nº do processo
+            - Placa do veículo ou nº do processo
           </span>
         </p>
       ),

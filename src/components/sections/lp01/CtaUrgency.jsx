@@ -11,17 +11,17 @@ export default function CtaUrgency() {
 
   return (
     <div
-      className="relative bg-scroll bg-center bg-cover desktop1:bg-fixed bg-bgSectionLight"
-    //   style={{
-    //     backgroundImage: `url(${contentLp01.ctaUrgency.bgImg})`,
-    //     backgroundRepeat: "no-repeat",
-    //   }}
+      className="relative bg-scroll bg-center bg-cover desktop1:bg-fixed"
+      //   style={{
+      //     backgroundImage: `url(${contentLp01.ctaUrgency.bgImg})`,
+      //     backgroundRepeat: "no-repeat",
+      //   }}
       id=""
     >
       <div className="absolute inset-0  z-0 pointer-events-none" />
 
       <div className="relative z-10 flex justify-center w-full text-black">
-        <SectionArea className="" paddingbot={false}>
+        <SectionArea className="" paddingbot={false} paddingtop={true}>
           <SectionWrapper>
             <SectionHeader
               className="text-center"

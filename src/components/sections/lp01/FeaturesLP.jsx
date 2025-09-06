@@ -7,7 +7,7 @@ import FeatureCardLP from "./FeatureCardLP";
 export default function FeaturesLP() {
   return (
     <>
-      <SectionArea>
+      <SectionArea className=''>
         <SectionWrapper>
           <SectionHeader
             miniTitle={contentLp01.features.sectionHeader.miniTag}
