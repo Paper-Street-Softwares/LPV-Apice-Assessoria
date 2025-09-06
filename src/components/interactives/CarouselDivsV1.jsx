@@ -6,12 +6,12 @@ export default function CarouselDivsV1({ children }) {
   const responsiveOptions = [
     {
       breakpoint: "2500px",
-      numVisible: 2,
+      numVisible: 3,
       numScroll: 2,
     }, // organiza em 4 por clique e passa os 4 de uma só vez
     {
       breakpoint: "1199px",
-      numVisible: 2,
+      numVisible: 3,
       numScroll: 2,
     },
     {
@@ -29,7 +29,7 @@ export default function CarouselDivsV1({ children }) {
   const itemTemplate = (item) => {
     return (
       <div className="border-1 rounded text-center py-5 px-3 h-full w-auto">
-        <div className="flex justify-center items-center h-full">{item}</div>
+        <div className="flex justify-center items-center h-auto">{item}</div>
       </div>
     );
   };
@@ -45,7 +45,8 @@ export default function CarouselDivsV1({ children }) {
         circular
         autoplayInterval={8000}
         itemTemplate={itemTemplate}
-        showNavigators={true}
+        showNavigators={false}
+        showIndicators={false}
         prevIcon={<span style={{ color: "white", fontSize: "200%" }}>❮</span>}
         nextIcon={<span style={{ color: "white", fontSize: "200%" }}>❯</span>}
       />

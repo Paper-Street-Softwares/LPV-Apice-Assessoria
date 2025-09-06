@@ -7,15 +7,15 @@ import CarouselDivisV1 from "../../components/interactives/CarouselDivsV1";
 
 export default function Depositions() {
   return (
-    <div className="relative bg-bgSectionDark">
-      <SectionArea className="" paddingbot={false}>
+    <div className="relative">
+      <SectionArea className="" paddingtop={false}>
         <SectionHeader
-          className="text-center"
+          className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
           miniTitle={content.texts.testimonials.miniTag}
           sectionHeaderTitle={content.texts.testimonials.title}
           sectionHeaderSubtitle={content.texts.testimonials.subtitle}
-          titleColor="text-colorWhite"
-          subtitleColor="text-colorWhite opacity-70"
+          titleColorSet="text-primary"
+          subtitleColorSet="text-primary opacity-70"
         />
 
         <SectionWrapper className="flex justify-center">
@@ -57,7 +57,6 @@ export default function Depositions() {
               </CarouselDivisV1>
             </div>
           </MotionDivDownToUp>
-          <MotionDivDownToUp></MotionDivDownToUp>
         </SectionWrapper>
       </SectionArea>
     </div>

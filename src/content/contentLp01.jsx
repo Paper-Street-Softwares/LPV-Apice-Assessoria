@@ -24,11 +24,11 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Prime Trânsito Goiás | Especialistas em Recursos - Palmeiras de Goiás",
+      "Ápice Assessoria de Trânsito em Campo Mourão - Defesa Contra Multas, Suspensões e Cassações de CNH",
     description:
-      "Especialistas em recursos de multas, CNH suspensa ou cassada. Atendimento jurídico personalizado em Palmeiras de Goiás com eficiência e agilidade.",
+      "A Ápice Assessoria de Trânsito, em Campo Mourão - PR, é referência em defesa administrativa e judicial contra multas, suspensões e cassações de CNH. Mais de 25 anos de experiência em soluções jurídicas de trânsito.",
     keywords:
-      "Recurso De Multa, Recurso De CNH Suspensa, Recurso De CNH Cassada, Advogado De Trânsito, Assessoria De Trânsito, Defesa De Multa De Trânsito, Multa Por Embriaguez, Suspensão De CNH, Cassação De CNH, Direito De Trânsito, Especialista Em Trânsito, Multas De Trânsito Goiás, CNH Suspensa Palmeiras De Goiás, CNH Cassada Palmeiras De Goiás, Recurso De Multa Em Palmeiras De Goiás, Advogado Em Palmeiras De Goiás, Prime Trânsito Goiás, Assessoria Prime Trânsito, Prime Trânsito Em Palmeiras De Goiás, Recursos Administrativos De Trânsito.",
+      "Ápice Assessoria De Trânsito, Ápice Assessoria De Trânsito Campo Mourão, Assessoria De Trânsito Em Campo Mourão, Defesa De Multas Campo Mourão, Suspensão De CNH Campo Mourão, Cassação De CNH Campo Mourão, Recursos De Multas Campo Mourão, Advogado De Trânsito Campo Mourão, Defesa Administrativa De Trânsito, Defesa Judicial De Trânsito, Assessoria Jurídica De Trânsito Campo Mourão, Transferência De Pontos CNH Campo Mourão, Cancelamento De Permissão Campo Mourão, Renúncia De Propriedade De Veículo Campo Mourão, Indenização Por Acidente De Trânsito Campo Mourão, Veículos Clonados Campo Mourão, Defesa Técnica Contra Multas, Atuação Contra Suspensão De CNH, Atuação Contra Cassação De CNH, Ápice Assessoria De Trânsito PR.",
   },
   hero: {
     bgImg: bgImg,
@@ -39,21 +39,21 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Seus direitos <span className="text-lpTitle"> no trânsito</span>{" "}
-          <span className="text-lpTitle"> também merecem prioridade</span>
+          Multa de trânsito ou
+          <span className="text-lpTitle"> CNH suspensa?</span>
         </h1>
       ),
       subtitle:
-        "Multas indevidas, CNH suspensa, acidentes ou venda mal resolvida? Atuamos para proteger você em cada detalhe do caminho.",
-      buttonLabel: "Fale com um advogado especialista",
+        "A Ápice Assessoria de Trânsito cuida disso para você — são anos de experiência em todo o Brasil.",
+      buttonLabel: "Solicitar análise",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "SE SENTIU LESADO NO TRÂNSITO?",
-      title: "Descubra quando recorrer e como garantir seus direitos.",
+      miniTag: "ESPECIALIDADES",
+      title: "Confira abaixo nossas áreas de atuação",
     },
     cards: {
       card1: {
@@ -68,16 +68,17 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-off-icon lucide-shield-off"
+            class="lucide lucide-arrow-left-right-icon lucide-arrow-left-right"
           >
-            <path d="m2 2 20 20" />
-            <path d="M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71" />
-            <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
+            <path d="M8 3 4 7l4 4" />
+            <path d="M4 7h16" />
+            <path d="m16 21 4-4-4-4" />
+            <path d="M20 17H4" />
           </svg>
         ),
-        title: "Multas e Infrações Indevidas",
+        title: "Transferência de Pontos",
         description:
-          "Conteste penalidades injustas ou aplicadas por erro administrativo.",
+          "Quando o prazo para indicar o real condutor expira, apenas uma ação judicial pode resolver. Assim, evitamos que os pontos indevidos fiquem no seu prontuário e gerem suspensão por excesso de pontuação.",
       },
       card2: {
         icon: (
@@ -91,17 +92,92 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-ban-icon lucide-ban"
+            class="lucide lucide-x-icon lucide-x"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m4.9 4.9 14.2 14.2" />
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
           </svg>
         ),
-        title: "Suspensão e Cassação da CNH",
+        title: "Cancelamento de Permissão",
         description:
-          "Defenda sua habilitação com estratégias administrativas e judiciais.",
+          "Motoristas permissionários correm risco de perder o direito de dirigir por infrações registradas. Atuamos judicialmente para evitar que pontos indevidos comprometam sua CNH definitiva.",
       },
       card3: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-id-card-lanyard-icon lucide-id-card-lanyard"
+          >
+            <path d="M13.5 8h-3" />
+            <path d="m15 2-1 2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3" />
+            <path d="M16.899 22A5 5 0 0 0 7.1 22" />
+            <path d="m9 2 3 6" />
+            <circle cx="12" cy="15" r="3" />
+          </svg>
+        ),
+        title: "Suspensão da CNH por Pontos",
+        description:
+          "Recebeu notificação de suspensão por excesso de pontos ou infração autossuspensiva? Nossa equipe atua em todas as instâncias administrativas e judiciais para tentar reverter a penalidade.",
+      },
+      card4: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hand-coins-icon lucide-hand-coins"
+          >
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
+          </svg>
+        ),
+        title: "Renúncia de Propriedade",
+        description:
+          "Vendeu o veículo e o comprador não transferiu? Isso pode gerar multas, impostos e responsabilidade para você. Ingressamos com ações específicas para transferir a responsabilidade ao comprador.",
+      },
+      card5: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        title: "Indenizações por Acidente",
+        description:
+          "Sofreu acidente de trânsito com prejuízos materiais relevantes? Buscamos indenizações através de ações de responsabilidade civil, assegurando sua reparação integral.",
+      },
+      card6: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -121,67 +197,19 @@ const contentLp01 = {
             <circle cx="17" cy="17" r="2" />
           </svg>
         ),
-        title: "Acidentes e Indenizações",
+        title: "Veículos Clonados",
         description:
-          "Busque reparação por danos materiais, morais ou corporais.",
-      },
-      card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
-          >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
-          </svg>
-        ),
-        title: "Recursos Administrativos e Judiciais",
-        description:
-          "Atuação completa para reverter decisões do DETRAN, JARI e CETRAN.",
-      },
-      card5: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-warning-icon lucide-file-warning"
-          >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
-          </svg>
-        ),
-        title: "Venda não formalizada de veículos",
-        description:
-          "Evite multas e responsabilidades por carros que já vendeu, mas continuam no seu nome.",
+          "Recebeu multas ou cobranças por infrações que não cometeu? Isso pode ser resultado de clonagem de placas. Atuamos para anular as penalidades e responsabilizar os verdadeiros infratores.",
       },
     },
   },
   about: {
     bgImg: bgImg,
-    imagesGaleria: {
-      // imagem1: img1,
-      // imagem2: img2,
-      // imagem3: img3,
-    },
+    // imagesGaleria: {
+    //   imagem1: img1,
+    //   imagem2: img2,
+    //   imagem3: img3,
+    // },
     imgAbout: {
       img: imagemAbout,
     },
@@ -190,31 +218,31 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "Excelência em Defesa Administrativa de Trânsito",
+      miniTag: "Excelência em Direito de Trânsito",
       title:
-        "Comprometimento real com a proteção dos seus direitos no trânsito.",
+        "Defendemos seus direitos no trânsito com comprometimento e estratégia.",
     },
     paragraph: (
       <p>
-        Atuamos com excelência em defesas jurídicas relacionadas a infrações,
-        multas, suspensão e cassação da CNH, além de outras demandas do Direito
-        de Trânsito.
+        Somos especialistas em defesas administrativas e judiciais contra
+        infrações, multas, suspensões e cassações da CNH. Nosso trabalho vai
+        além do básico: oferecemos um atendimento estratégico e personalizado,
+        analisando cada detalhe do seu caso.
         <br />
         <br />
-        Nosso atendimento é personalizado e estratégico, considerando as
-        particularidades de cada caso. Unimos conhecimento técnico, experiência
-        e soluções inovadoras para alcançar resultados justos e concretos.
+        Combinamos conhecimento técnico, experiência sólida e soluções
+        inovadoras para garantir resultados justos e concretos.
         <br />
         <br />
-        Desde o início, somos reconhecidos por uma atuação firme, próxima e
-        eficiente, sempre focados na defesa dos seus direitos.
+        Nossa trajetória é marcada por uma atuação firme, próxima e eficiente,
+        sempre colocando a proteção dos seus direitos em primeiro lugar.
         <br />
         <br />
-        Se você busca um escritório que realmente entende o seu problema e luta
-        por você, está no lugar certo.
+        Se você procura um escritório que realmente entende o seu problema e
+        luta por você, a Ápice Assessoria de Trânsito é a escolha certa.
       </p>
     ),
-    buttonLabel: "Fale agora com um advogado",
+    buttonLabel: "Falar com um consultor agora",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
@@ -245,48 +273,32 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title:
-        "Por que somos a melhor opção para defender seus direitos no trânsito",
+      title: "Por que somos referência na defesa dos seus direitos no trânsito",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
         title: "Especialistas em Direito de Trânsito",
         description:
-          "Conhecemos as normas e particularidades do Código de Trânsito Brasileiro e suas implicações práticas.",
+          "Domínio completo do Código de Trânsito Brasileiro e de suas aplicações práticas em cada defesa.",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "Experiência Comprovada e Atualizada",
+        title: "Experiência e Atualização Constante",
         description:
-          "Anos de atuação em defesa administrativa e judicial, com participação em congressos e eventos para estratégias eficazes.",
+          "Mais de duas décadas de atuação em processos administrativos e judiciais, com participação ativa em congressos e eventos da área.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "Atuação Próxima dos Órgãos e Tribunais",
+        title: "Atuação Direta junto a Órgãos e Tribunais",
         description:
-          "Acompanhamos julgamentos e atualizações nas instâncias administrativas e judiciais, garantindo defesas alinhadas às últimas decisões.",
+          "Presença próxima aos DETRANs, CETRANs e instâncias judiciais, acompanhando decisões e garantindo defesas sempre atualizadas.",
       },
       card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-message-square-icon lucide-message-square"
-          >
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-          </svg>
-        ),
-        title: "Estratégias Personalizadas para Seu Caso",
+        icon: <BadgeDollarSign width={32} height={32} />,
+        title: "Estratégias Personalizadas e Eficazes",
         description:
-          "Desenvolvemos técnicas exclusivas para reversão de multas, suspensão de CNH e outros recursos, com histórico de resultados positivos.",
+          "Cada caso é único. Desenvolvemos defesas sob medida, com histórico consistente de reversão de multas e suspensão da CNH.",
       },
     },
   },
@@ -297,21 +309,46 @@ const contentLp01 = {
       subtitle: "A_Definir",
     },
   },
+  ctaUrgency: {
+    bgImg: bgImg,
+    sectionHeader: {
+      miniTag: "NÃO DEIXE ESSA SITUAÇÃO PIORAR",
+      title:
+        "Grande parte das suspensões e cassações acontece porque o motorista não sabe como se defender corretamente.",
+      subtitle: (
+        <p className="opacity-80">
+          Na Ápice Assessoria de Trânsito, utilizamos o Código de Trânsito
+          Brasileiro, as Resoluções do CONTRAN e jurisprudências recentes para
+          proteger o seu direito de dirigir.
+        </p>
+      ),
+    },
+    buttonLabel: "Se houver chance de cancelar, a Ápice vai cancelar",
+    ctaButtonAriaLabel: "Botão de Contato",
+  },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO PERCA TEMPO",
-      title: "Seus direitos no trânsito ao seu alcance!",
+      title: "Fale com a Ápice Assessoria de Trânsito agora mesmo",
       subtitle: (
         <p className="opacity-80">
-          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a resolver
-          qualquer questão jurídica relacionada ao trânsito. Conte com uma
-          equipe especializada para proteger sua CNH, recorrer de multas e
-          garantir seus direitos com segurança e agilidade.
+          Envie seus dados e receba uma análise agora mesmo: <br />
+          <br />
+          <span className="text-white/80">- Nome</span>
+          <br />
+          <br />
+          <span className="text-white/80">- WhatsApp</span>
+          <br />
+          <br />
+          <span className="text-white/80">
+            {" "}
+            - Placa do veículo ou nº do processo
+          </span>
         </p>
       ),
     },
-    buttonLabel: "Vamos resolver seu problema",
+    buttonLabel: "Falar com um Especialista",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {

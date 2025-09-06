@@ -6,37 +6,40 @@ import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import { useNavigate } from "react-router-dom";
 
-export default function AboutParalaxeLP() {
+export default function CtaUrgency() {
   const navigate = useNavigate();
 
   return (
     <div
       className="relative bg-scroll bg-center bg-cover desktop1:bg-fixed"
-      style={{
-        backgroundImage: `url(${contentLp01.cta.bgImg})`,
-        backgroundRepeat: "no-repeat",
-      }}
-      id="contact"
+      //   style={{
+      //     backgroundImage: `url(${contentLp01.ctaUrgency.bgImg})`,
+      //     backgroundRepeat: "no-repeat",
+      //   }}
+      id=""
     >
-      <div className="absolute inset-0 bg-black/80 z-0 pointer-events-none" />
+      <div className="absolute inset-0  z-0 pointer-events-none" />
 
-      <div className="relative z-10 flex justify-center w-full text-white">
-        <SectionArea className="">
+      <div className="relative z-10 flex justify-center w-full text-black">
+        <SectionArea className="" paddingbot={false} paddingtop={true}>
           <SectionWrapper>
             <SectionHeader
-              className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-              miniTitle={contentLp01.cta.sectionHeader.miniTag}
-              sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
-              sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
+              className="text-center mb-8"
+              miniTitle={contentLp01.ctaUrgency.sectionHeader.miniTag}
+              sectionHeaderTitle={contentLp01.ctaUrgency.sectionHeader.title}
+              sectionHeaderSubtitle={
+                contentLp01.ctaUrgency.sectionHeader.subtitle
+              }
               // miniTitleTextColor="text-darker"
               color=""
-              titleColorSet="text-white"
-              subtitleColorSet="text-white"
+              titleColorSet="text-black"
+              subtitleColorSet="text-black"
             />
             <MotionDivDownToUp>
               <Button
+                className=""
                 aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
-                label={contentLp01.cta.buttonLabel}
+                label={contentLp01.ctaUrgency.buttonLabel}
                 animation
                 icon={
                   <svg
