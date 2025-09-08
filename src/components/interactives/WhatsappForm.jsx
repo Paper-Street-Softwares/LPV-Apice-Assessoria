@@ -8,7 +8,7 @@ import emailjs from "@emailjs/browser";
 const WhatsappForm = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
+  const [placa, setPlaca] = useState("");
   const [uf, setUf] = useState("");
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
@@ -56,20 +56,21 @@ const WhatsappForm = () => {
       validationErrors.phone = "Número inválido.";
     }
 
-    if (!email) {
-      validationErrors.email = "O campo E-mail é obrigatório.";
-    } else if (!validateEmail(email)) {
-      validationErrors.email = "E-mail inválido.";
+    // ⚠️ Antes validava email, mas agora usamos placa
+    if (!placa) {
+      validationErrors.placa =
+        "O campo Placa ou Número do processo é obrigatório.";
     }
+    // else if (!validateEmail(email)) {
+    //   validationErrors.email = "E-mail inválido.";
+    // }
 
-    if (!uf) {
-      validationErrors.uf = "O campo Cidade e Estado é obrigatório.";
-    } else if (!validateUf(uf)) {
+    if (uf && !validateUf(uf)) {
       validationErrors.uf = "Cidade e Estado inválido.";
     }
 
-    if (!validateMessage(message)) {
-      validationErrors.message = "O campo mensagem é obrigatório.";
+    if (message && !validateMessage(message)) {
+      validationErrors.message = "Mensagem inválida.";
     }
 
     if (Object.keys(validationErrors).length > 0) {
@@ -78,44 +79,58 @@ const WhatsappForm = () => {
       return;
     }
 
-    const templateParams = {
-      to_name: name,
-      name,
-      phone,
-      email,
-      uf,
-      to_email: email,
-      message,
-    };
+    // const templateParams = {
+    //   to_name: name,
+    //   name,
+    //   phone,
+    //   email,
+    //   uf,
+    //   to_email: email,
+    //   message,
+    // };
 
-    try {
-      const response = await emailjs.send(
-        "service_79yzhx9",
-        "template_mhpelei",
-        templateParams,
-        "HhY_ngFZdJ35Ugc0H"
-      );
-      console.log(
-        "Mensagem enviada com sucesso:",
-        response.status,
-        response.text
-      );
+    // try {
+    //   const response = await emailjs.send(
+    //     "service_79yzhx9",
+    //     "template_mhpelei",
+    //     templateParams,
+    //     "HhY_ngFZdJ35Ugc0H"
+    //   );
+    //   console.log(
+    //     "Mensagem enviada com sucesso:",
+    //     response.status,
+    //     response.text
+    //   );
 
-      setName("");
-      setPhone("");
-      setEmail("");
-      setUf("");
-      setMessage("");
-      setIsSubmitting(false);
-      alert(
-        "Recebemos os seus dados com sucesso! Em breve nossa equipe entrará em contato. Obrigado!"
-      );
-      window.location.reload();
-    } catch (error) {
-      console.error("Erro ao enviar o e-mail:", error);
-      alert("Houve um erro ao enviar o e-mail. Tente novamente.");
-      setIsSubmitting(false);
-    }
+    //   setName("");
+    //   setPhone("");
+    //   setEmail("");
+    //   setUf("");
+    //   setMessage("");
+    //   setIsSubmitting(false);
+    //   alert(
+    //     "Recebemos os seus dados com sucesso! Em breve nossa equipe entrará em contato. Obrigado!"
+    //   );
+    //   window.location.reload();
+    // } catch (error) {
+    //   console.error("Erro ao enviar o e-mail:", error);
+    //   alert("Houve um erro ao enviar o e-mail. Tente novamente.");
+    //   setIsSubmitting(false);
+    // }
+
+    const companyNumber = "5544999067933"; // 55 + DDD + número
+    const text = `Olá, meu nome é 
+    ${name}
+    WhatsApp: ${phone}
+    Placa/Nº do processo: ${placa}`;
+
+    // Abre WhatsApp
+    window.open(
+      `https://wa.me/${companyNumber}?text=${encodeURIComponent(text)}`,
+      "_blank"
+    );
+
+    setIsSubmitting(false);
   };
 
   const validateName = (name) => {
@@ -128,10 +143,10 @@ const WhatsappForm = () => {
     return cleanedPhone.length >= 10; // Pelo menos 10 dígitos
   };
 
-  const validateEmail = (email) => {
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    return emailPattern.test(email.trim());
-  };
+  // const validateEmail = (email) => {
+  //   const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  //   return emailPattern.test(email.trim());
+  // };
 
   const validateUf = (uf) => {
     return uf.trim().length >= 5; // Requer ao menos 5 caracteres para Cidade e Estado
@@ -198,26 +213,42 @@ const WhatsappForm = () => {
           </div>
           {errors.phone && <p className="text-red-500">{errors.phone}</p>}
         </div>
-        {/* Email */}
+        {/* Placa ou Número do Processo */}
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
             <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
-              <Mail />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-car-icon lucide-car"
+              >
+                <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+                <circle cx="7" cy="17" r="2" />
+                <path d="M9 17h6" />
+                <circle cx="17" cy="17" r="2" />
+              </svg>
             </div>
             <input
               className="w-full px-1 py-2 border-0 rounded-none"
-              type="email"
+              type="text"
               id="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="E-mail"
+              value={placa}
+              onChange={(e) => setPlaca(e.target.value)}
+              placeholder="Placa ou Número do processo"
               required
             />
           </div>
-          {errors.email && <p className="text-red-500">{errors.email}</p>}
+          {/* {errors.email && <p className="text-red-500">{errors.email}</p>} */}
         </div>
         {/* Cidade/Estado */}
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
             <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
               <Globe />
@@ -233,9 +264,9 @@ const WhatsappForm = () => {
             />
           </div>
           {errors.uf && <p className="text-red-500">{errors.uf}</p>}
-        </div>
+        </div> */}
         {/* Mensagem */}
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
             <div className="flex items-start justify-center w-12 px-1 bg-bgSectionLight">
               <MessageCircle className="mt-[14px]" />
@@ -250,11 +281,11 @@ const WhatsappForm = () => {
             />
           </div>
           {errors.message && <p className="text-red-500">{errors.message}</p>}
-        </div>
+        </div> */}
         {/* Botão */}
         <button
           type="button"
-          className="flex items-center w-full font-medium text-bgSectionDark bg-primary transition-all rounded-lg h-10 phone2:h-12 hover:scale-105"
+          className="flex items-center w-full font-medium text-primary bg-buttonColor transition-all rounded-lg h-10 phone2:h-12 hover:scale-105"
           onClick={sendToWhatsapp}
           disabled={isSubmitting}
         >

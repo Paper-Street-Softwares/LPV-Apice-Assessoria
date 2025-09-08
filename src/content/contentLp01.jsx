@@ -220,7 +220,7 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "Excelência em Direito de Trânsito",
       title:
-        "Defendemos seus direitos no trânsito com comprometimento e estratégia.",
+        "Defendemos seus direitos no trânsito com comprometimento e estratégia",
     },
     paragraph: (
       <p>
@@ -314,7 +314,7 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "NÃO DEIXE ESSA SITUAÇÃO PIORAR",
       title:
-        "Grande parte das suspensões e cassações acontece porque o motorista não sabe como se defender corretamente.",
+        "Grande parte das suspensões e cassações acontece porque o motorista não sabe como se defender corretamente",
       subtitle: (
         <p className="opacity-80">
           Na Ápice Assessoria de Trânsito, utilizamos o Código de Trânsito
@@ -333,22 +333,11 @@ const contentLp01 = {
       title: "Fale com a Ápice Assessoria de Trânsito agora mesmo",
       subtitle: (
         <p className="opacity-80">
-          Envie seus dados e receba uma análise agora mesmo: <br />
-          <br />
-          <span className="text-white/80">- Nome</span>
-          <br />
-          <br />
-          <span className="text-white/80">- WhatsApp</span>
-          <br />
-          <br />
-          <span className="text-white/80">
-            {" "}
-            - Placa do veículo ou nº do processo
-          </span>
+          Envie seus dados e receba uma análise agora mesmo:
         </p>
       ),
     },
-    buttonLabel: "Falar com um Especialista",
+    buttonLabel: "Preencha seus dados",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
