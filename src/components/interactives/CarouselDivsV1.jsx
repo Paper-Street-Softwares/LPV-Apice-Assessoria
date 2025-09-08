@@ -8,7 +8,7 @@ export default function CarouselDivsV1({ children }) {
       breakpoint: "2500px",
       numVisible: 3,
       numScroll: 2,
-    }, // organiza em 4 por clique e passa os 4 de uma só vez
+    }, 
     {
       breakpoint: "1199px",
       numVisible: 3,
@@ -38,8 +38,8 @@ export default function CarouselDivsV1({ children }) {
     <div className="">
       <Carousel
         value={children}
-        numVisible={1}
-        numScroll={1}
+        numVisible={3}
+        numScroll={2}
         responsiveOptions={responsiveOptions}
         className="text-colorWhite"
         circular
