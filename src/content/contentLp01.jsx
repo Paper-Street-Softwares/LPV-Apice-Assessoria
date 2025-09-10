@@ -78,7 +78,7 @@ const contentLp01 = {
         ),
         title: "Cassação da CNH",
         description:
-          "Está enfrentando processo de cassação do direito de dirigir? Atuamos na defesa administrativa e judicial para preservar sua habilitação.",
+          "Está enfrentando processo de cassação do direito de dirigir? Atuamos na defesa administrativa para preservar sua habilitação.",
       },
       card2: {
         icon: (
