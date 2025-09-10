@@ -7,7 +7,7 @@ import FeatureCardLP from "./FeatureCardLP";
 export default function FeaturesLP() {
   return (
     <>
-      <SectionArea className=''>
+      <SectionArea className="">
         <SectionWrapper>
           <SectionHeader
             miniTitle={contentLp01.features.sectionHeader.miniTag}
@@ -31,23 +31,6 @@ export default function FeaturesLP() {
               icon={contentLp01.features.cards.card3.icon}
               title={contentLp01.features.cards.card3.title}
               description={contentLp01.features.cards.card3.description}
-            />
-            <FeatureCardLP
-              icon={contentLp01.features.cards.card4.icon}
-              title={contentLp01.features.cards.card4.title}
-              description={contentLp01.features.cards.card4.description}
-            />
-
-            <FeatureCardLP
-              icon={contentLp01.features.cards.card5.icon}
-              title={contentLp01.features.cards.card5.title}
-              description={contentLp01.features.cards.card5.description}
-            />
-
-            <FeatureCardLP
-              icon={contentLp01.features.cards.card6.icon}
-              title={contentLp01.features.cards.card6.title}
-              description={contentLp01.features.cards.card6.description}
             />
           </div>
         </SectionWrapper>
