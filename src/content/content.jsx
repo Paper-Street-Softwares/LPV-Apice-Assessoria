@@ -587,19 +587,19 @@ const content = {
           img: imgTestimonial4,
           alt: "Imagem de feedback",
         },
-        img4: {
+        img5: {
           img: imgTestimonial5,
           alt: "Imagem de feedback",
         },
-        img4: {
+        img6: {
           img: imgTestimonial6,
           alt: "Imagem de feedback",
         },
-        img4: {
+        img7: {
           img: imgTestimonial7,
           alt: "Imagem de feedback",
         },
-        img4: {
+        img8: {
           img: imgTestimonial8,
           alt: "Imagem de feedback",
         },

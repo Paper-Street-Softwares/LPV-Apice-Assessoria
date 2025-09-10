@@ -76,9 +76,9 @@ const contentLp01 = {
             <path d="M20 17H4" />
           </svg>
         ),
-        title: "Transferência de Pontos",
+        title: "Cassação da CNH",
         description:
-          "Quando o prazo para indicar o real condutor expira, apenas uma ação judicial pode resolver. Assim, evitamos que os pontos indevidos fiquem no seu prontuário e gerem suspensão por excesso de pontuação.",
+          "Está enfrentando processo de cassação do direito de dirigir? Atuamos na defesa administrativa e judicial para preservar sua habilitação.",
       },
       card2: {
         icon: (
@@ -98,9 +98,9 @@ const contentLp01 = {
             <path d="m6 6 12 12" />
           </svg>
         ),
-        title: "Cancelamento de Permissão",
+        title: "Recusa de Bafômetro (Lei Seca)",
         description:
-          "Motoristas permissionários correm risco de perder o direito de dirigir por infrações registradas. Atuamos judicialmente para evitar que pontos indevidos comprometam sua CNH definitiva.",
+          "Recusou o teste do bafômetro e foi autuado? Elaboramos defesas especializadas para contestar multas, suspensão e outras penalidades da Lei Seca.",
       },
       card3: {
         icon: (
@@ -224,10 +224,10 @@ const contentLp01 = {
     },
     paragraph: (
       <p>
-        Somos especialistas em defesas administrativas e judiciais contra
-        infrações, multas, suspensões e cassações da CNH. Nosso trabalho vai
-        além do básico: oferecemos um atendimento estratégico e personalizado,
-        analisando cada detalhe do seu caso.
+        Somos especialistas em defesas administrativas contra infrações, multas,
+        suspensões e cassações da CNH. Nosso trabalho vai além do básico:
+        oferecemos um atendimento estratégico e personalizado, analisando cada
+        detalhe do seu caso.
         <br />
         <br />
         Combinamos conhecimento técnico, experiência sólida e soluções
@@ -286,13 +286,13 @@ const contentLp01 = {
         icon: <ChartNoAxesCombined width={32} height={32} />,
         title: "Experiência e Atualização Constante",
         description:
-          "Mais de duas décadas de atuação em processos administrativos e judiciais, com participação ativa em congressos e eventos da área.",
+          "Anos de atuação em processos administrativos, com participação ativa em congressos e eventos da área.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
         title: "Atuação Direta junto a Órgãos e Tribunais",
         description:
-          "Presença próxima aos DETRANs, CETRANs e instâncias judiciais, acompanhando decisões e garantindo defesas sempre atualizadas.",
+          "Presença próxima aos DETRANs, CETRANs, acompanhando decisões e garantindo defesas sempre atualizadas.",
       },
       card4: {
         icon: <BadgeDollarSign width={32} height={32} />,
@@ -314,7 +314,7 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "NÃO DEIXE ESSA SITUAÇÃO PIORAR",
       title:
-        "Grande parte das suspensões e cassações acontece porque o motorista não sabe como se defender corretamente",
+        "Grande parte das suspensões e cassações acontecem porque o motorista não sabe como se defender corretamente",
       subtitle: (
         <p className="opacity-80">
           Na Ápice Assessoria de Trânsito, utilizamos o Código de Trânsito
