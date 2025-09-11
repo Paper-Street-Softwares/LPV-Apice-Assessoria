@@ -26,7 +26,7 @@ const contentLp01 = {
     title:
       "Ápice Assessoria de Trânsito em Campo Mourão - Defesa Contra Multas, Suspensões e Cassações de CNH",
     description:
-      "A Ápice Assessoria de Trânsito, em Campo Mourão - PR, é referência em defesa administrativa e judicial contra multas, suspensões e cassações de CNH. Mais de 25 anos de experiência em soluções jurídicas de trânsito.",
+      "A Ápice Assessoria de Trânsito, em Campo Mourão - PR, é referência em defesa administrativa contra multas, suspensões e cassações de CNH. Mais de 25 anos de experiência em soluções administrativas de trânsito.",
     keywords:
       "Ápice Assessoria De Trânsito, Ápice Assessoria De Trânsito Campo Mourão, Assessoria De Trânsito Em Campo Mourão, Defesa De Multas Campo Mourão, Suspensão De CNH Campo Mourão, Cassação De CNH Campo Mourão, Recursos De Multas Campo Mourão, Advogado De Trânsito Campo Mourão, Defesa Administrativa De Trânsito, Defesa Judicial De Trânsito, Assessoria Jurídica De Trânsito Campo Mourão, Transferência De Pontos CNH Campo Mourão, Cancelamento De Permissão Campo Mourão, Renúncia De Propriedade De Veículo Campo Mourão, Indenização Por Acidente De Trânsito Campo Mourão, Veículos Clonados Campo Mourão, Defesa Técnica Contra Multas, Atuação Contra Suspensão De CNH, Atuação Contra Cassação De CNH, Ápice Assessoria De Trânsito PR.",
   },
@@ -125,7 +125,7 @@ const contentLp01 = {
         ),
         title: "Suspensão da CNH por Pontos",
         description:
-          "Recebeu notificação de suspensão por excesso de pontos ou infração autossuspensiva? Nossa equipe atua em todas as instâncias administrativas e judiciais para tentar reverter a penalidade.",
+          "Recebeu notificação de suspensão por excesso de pontos ou infração autossuspensiva? Nossa equipe atua em todas as instâncias administrativas para tentar reverter a penalidade.",
       },
       card4: {
         icon: (
