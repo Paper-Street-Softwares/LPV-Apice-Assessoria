@@ -39,14 +39,14 @@ import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
-import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
-import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
-import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
-import imgTestimonial5 from "../assets/imgs/testimonials/deposition5.png";
-import imgTestimonial6 from "../assets/imgs/testimonials/deposition6.png";
-import imgTestimonial7 from "../assets/imgs/testimonials/deposition7.png";
-import imgTestimonial8 from "../assets/imgs/testimonials/deposition8.png";
+import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.webp";
+import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.webp";
+import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.webp";
+import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
+import imgTestimonial5 from "../assets/imgs/testimonials/deposition5.webp";
+import imgTestimonial6 from "../assets/imgs/testimonials/deposition6.webp";
+import imgTestimonial7 from "../assets/imgs/testimonials/deposition7.webp";
+import imgTestimonial8 from "../assets/imgs/testimonials/deposition8.webp";
 
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
