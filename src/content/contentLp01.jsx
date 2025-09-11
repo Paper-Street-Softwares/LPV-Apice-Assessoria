@@ -125,7 +125,7 @@ const contentLp01 = {
         ),
         title: "Suspensão da CNH por Pontos",
         description:
-          "Recebeu notificação de suspensão por excesso de pontos ou infração autossuspensiva? Nossa equipe atua em todas as instâncias administrativas e judiciais para tentar reverter a penalidade.",
+          "Recebeu notificação de suspensão por excesso de pontos ou infração autossuspensiva? Nossa equipe atua em todas as instâncias administrativas para tentar reverter a penalidade.",
       },
       card4: {
         icon: (
