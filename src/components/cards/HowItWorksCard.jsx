@@ -20,22 +20,24 @@ export default function HowItWorksCard({
       break;
     case "default":
     default:
-      textColor = "text-white";
+      textColor = "text-black";
       textOpacity = "opacity-80";
       break;
   }
 
   const BaseContent = (
-    <div className="flex flex-col items-center justify-center transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
+    <div className="flex flex-col items-center justify-center transition desktop1:items-center font-mainFont desktop1:hover:scale-110 h-auto">
       <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-labelButtons text-title1 font-semibold">
         {number}
       </div>
 
-      <h1 className={`text-[20px] font-bold mb-[24px] ${textColor}`}>
+      <h1
+        className={`text-[20px] font-bold mb-[24px] text-center ${textColor}`}
+      >
         {title}
       </h1>
       <p
-        className={`text-[16px] text-center desktop1:text-left w-full ${textColor} ${textOpacity}`}
+        className={`text-[16px] text-center desktop1:text-center w-full ${textColor} ${textOpacity}`}
       >
         {description}
       </p>
@@ -43,22 +45,23 @@ export default function HowItWorksCard({
   );
 
   const StaticContent = (
-    <div className="flex flex-col items-center justify-center tablet1:w-[45%] transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
+    <div className="flex flex-col items-center justify-center tablet1:w-[45%] transition desktop1:items-center font-mainFont desktop1:hover:scale-110 h-auto">
       <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-labelButtons text-title1 font-semibold">
         {number}
       </div>
-      <h1 className="text-[20px] text-colorWhite font-bold mb-[24px]">
+      <h1 className="text-[20px] text-colorWhite font-bold mb-[24px] text-center">
         {title}
       </h1>
-      <p className="text-[16px] text-colorWhite opacity-70 text-center desktop1:text-left w-full">
+      <p className="text-[16px] text-colorWhite opacity-70 text-center desktop1:text-center w-full">
         {description}
       </p>
-
     </div>
   );
 
   return animation ? (
-    <MotionDivDownToUp className="tablet1:w-[45%]">{BaseContent}</MotionDivDownToUp>
+    <MotionDivDownToUp className="tablet1:w-[45%]">
+      {BaseContent}
+    </MotionDivDownToUp>
   ) : (
     StaticContent
   );

@@ -567,9 +567,9 @@ const content = {
     },
     testimonials: {
       miniTag: "CASOS DE SUCESSO",
-      title: "Histórias reais de quem virou o jogo",
+      title: "Quem confiou na Ápice, não perdeu o direito de dirigir. ",
       subtitle:
-        "Conheça clientes que enfrentaram situações difíceis no trânsito e conseguiram reverter tudo com a nossa ajuda.",
+        "Veja como nossos clientes recorreram a tempo e evitaram a suspensão da CNH com o suporte da nossa assessoria especializada.",
       images: {
         img1: {
           img: imgTestimonial1,

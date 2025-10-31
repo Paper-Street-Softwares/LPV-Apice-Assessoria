@@ -39,21 +39,45 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Multa de trânsito ou
-          <span className="text-lpTitle"> CNH suspensa?</span>
+          Recebeu uma <strong>notificação</strong>
+          <span className="text-lpTitle">
+            {" "}
+            do <strong>Detran</strong>?
+          </span>
         </h1>
       ),
       subtitle:
-        "A Ápice Assessoria de Trânsito cuida disso para você — são anos de experiência em todo o Brasil.",
-      buttonLabel: "Solicitar análise",
+        "Ainda dá tempo de evitar a suspensão da sua CNH. A equipe da Ápice cuida de todo o processo e garante sua defesa para que você continue dirigindo legalmente. ",
+      buttonLabel: "Fale com um especialista no WhatsApp",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
+    },
+    obsHero: {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-map-pin-check"
+        >
+          <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
+          <circle cx="12" cy="10" r="3" />
+          <path d="m16 18 2 2 4-4" />
+        </svg>
+      ),
+      text: "Prazo para recorrer: até 15 dias após notificação!",
     },
   },
   features: {
     sectionHeader: {
       miniTag: "ESPECIALIDADES",
-      title: "Confira abaixo nossas áreas de atuação",
+      title: "Entenda o que faz a Ápice a melhor solução",
     },
     cards: {
       card1: {
@@ -68,17 +92,16 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-arrow-left-right-icon lucide-arrow-left-right"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="M8 3 4 7l4 4" />
-            <path d="M4 7h16" />
-            <path d="m16 21 4-4-4-4" />
-            <path d="M20 17H4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
-        title: "Cassação da CNH",
-        description:
-          "Está enfrentando processo de cassação do direito de dirigir? Atuamos na defesa administrativa para preservar sua habilitação.",
+        title: "Mais de 1000 motoristas atendidos em todo o Paraná.",
+        description: "",
       },
       card2: {
         icon: (
@@ -92,15 +115,13 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-x-icon lucide-x"
+            class="lucide lucide-heart-handshake-icon lucide-heart-handshake"
           >
-            <path d="M18 6 6 18" />
-            <path d="m6 6 12 12" />
+            <path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762" />
           </svg>
         ),
-        title: "Recusa de Bafômetro (Lei Seca)",
-        description:
-          "Recusou o teste do bafômetro e foi autuado? Elaboramos defesas especializadas para contestar multas, suspensão e outras penalidades da Lei Seca.",
+        title: "Atendimento rápido, humano e especializado. ",
+        description: "",
       },
       card3: {
         icon: (
@@ -114,18 +135,16 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-id-card-lanyard-icon lucide-id-card-lanyard"
+            class="lucide lucide-file-search-icon lucide-file-search"
           >
-            <path d="M13.5 8h-3" />
-            <path d="m15 2-1 2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3" />
-            <path d="M16.899 22A5 5 0 0 0 7.1 22" />
-            <path d="m9 2 3 6" />
-            <circle cx="12" cy="15" r="3" />
+            <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+            <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+            <circle cx="11.5" cy="14.5" r="2.5" />
+            <path d="M13.3 16.3 15 18" />
           </svg>
         ),
-        title: "Suspensão da CNH por Pontos",
-        description:
-          "Recebeu notificação de suspensão por excesso de pontos ou infração autossuspensiva? Nossa equipe atua em todas as instâncias administrativas para tentar reverter a penalidade.",
+        title: "Análise gratuita do seu processo de suspensão.",
+        description: "",
       },
       card4: {
         icon: (
@@ -139,69 +158,70 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hand-coins-icon lucide-hand-coins"
+            class="lucide lucide-life-buoy-icon lucide-life-buoy"
           >
-            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
-            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
-            <path d="m2 16 6 6" />
-            <circle cx="16" cy="9" r="2.9" />
-            <circle cx="6" cy="5" r="3" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="m4.93 4.93 4.24 4.24" />
+            <path d="m14.83 9.17 4.24-4.24" />
+            <path d="m14.83 14.83 4.24 4.24" />
+            <path d="m9.17 14.83-4.24 4.24" />
+            <circle cx="12" cy="12" r="4" />
           </svg>
         ),
-        title: "Renúncia de Propriedade",
-        description:
-          "Vendeu o veículo e o comprador não transferiu? Isso pode gerar multas, impostos e responsabilidade para você. Ingressamos com ações específicas para transferir a responsabilidade ao comprador.",
+        title: "Suporte completo até o fim do recurso. ",
+        description: "",
       },
-      card5: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
-          >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
-          </svg>
-        ),
-        title: "Indenizações por Acidente",
-        description:
-          "Sofreu acidente de trânsito com prejuízos materiais relevantes? Buscamos indenizações através de ações de responsabilidade civil, assegurando sua reparação integral.",
-      },
-      card6: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-car-icon lucide-car"
-          >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
-          </svg>
-        ),
-        title: "Veículos Clonados",
-        description:
-          "Recebeu multas ou cobranças por infrações que não cometeu? Isso pode ser resultado de clonagem de placas. Atuamos para anular as penalidades e responsabilizar os verdadeiros infratores.",
-      },
+      // card5: {
+      //   icon: (
+      //     <svg
+      //       xmlns="http://www.w3.org/2000/svg"
+      //       width="24"
+      //       height="24"
+      //       viewBox="0 0 24 24"
+      //       fill="none"
+      //       stroke="currentColor"
+      //       stroke-width="2"
+      //       stroke-linecap="round"
+      //       stroke-linejoin="round"
+      //       class="lucide lucide-scale-icon lucide-scale"
+      //     >
+      //       <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+      //       <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+      //       <path d="M7 21h10" />
+      //       <path d="M12 3v18" />
+      //       <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+      //     </svg>
+      //   ),
+      //   title: "Indenizações por Acidente",
+      //   description:
+      //     "Sofreu acidente de trânsito com prejuízos materiais relevantes? Buscamos indenizações através de ações de responsabilidade civil, assegurando sua reparação integral.",
+      // },
+      // card6: {
+      //   icon: (
+      //     <svg
+      //       xmlns="http://www.w3.org/2000/svg"
+      //       width="24"
+      //       height="24"
+      //       viewBox="0 0 24 24"
+      //       fill="none"
+      //       stroke="currentColor"
+      //       stroke-width="2"
+      //       stroke-linecap="round"
+      //       stroke-linejoin="round"
+      //       class="lucide lucide-car-icon lucide-car"
+      //     >
+      //       <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+      //       <circle cx="7" cy="17" r="2" />
+      //       <path d="M9 17h6" />
+      //       <circle cx="17" cy="17" r="2" />
+      //     </svg>
+      //   ),
+      //   title: "Veículos Clonados",
+      //   description:
+      //     "Recebeu multas ou cobranças por infrações que não cometeu? Isso pode ser resultado de clonagem de placas. Atuamos para anular as penalidades e responsabilizar os verdadeiros infratores.",
+      // },
     },
+    buttonLabel: "Envie sua notificação agora mesmo",
   },
   about: {
     bgImg: bgImg,
@@ -253,21 +273,22 @@ const contentLp01 = {
     cards: {
       card1: {
         stepNumber: 1,
-        cardTitle: "A_Definir",
-        cardDescription: "A_Definir",
+        cardTitle: "Envie sua notificação pelo WhatsApp. ",
+        cardDescription: "",
       },
       card2: {
         stepNumber: 2,
-        cardTitle: "A_Definir",
-        cardDescription: "A_Definir",
+        cardTitle: "Receba uma análise gratuita do seu caso. ",
+        cardDescription: "",
       },
       card3: {
         stepNumber: 3,
-        cardTitle: "A_Definir",
-        cardDescription: "A_Definir",
+        cardTitle:
+          "Nossa equipe monta o recurso completo e acompanha até a resolução.",
+        cardDescription: "",
       },
-      buttonLabel: "A_Definir",
-      ariaLabel: "A_Definir",
+      buttonLabel: "Quero enviar minha notificação agora",
+      ariaLabel: "botão de contato",
     },
   },
   whyUs: {
@@ -314,30 +335,32 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "NÃO DEIXE ESSA SITUAÇÃO PIORAR",
       title:
-        "Grande parte das suspensões e cassações acontecem porque o motorista não sabe como se defender corretamente",
+        "A Ápice é especialista em recursos de suspensão e cassação de CNH em todo o Paraná. ",
       subtitle: (
         <p className="opacity-80">
-          Na Ápice Assessoria de Trânsito, utilizamos o Código de Trânsito
-          Brasileiro, as Resoluções do CONTRAN e jurisprudências recentes para
-          proteger o seu direito de dirigir.
+          Nós analisamos o seu caso, preparamos toda a defesa e acompanhamos o
+          processo junto ao Detran, passo a passo. Você não precisa enfrentar a
+          burocracia — nós fazemos tudo por você.
         </p>
       ),
     },
-    buttonLabel: "Se houver chance de cancelar, a Ápice vai cancelar",
+    buttonLabel: "Quero saber como recorrer da suspensão",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO PERCA TEMPO",
-      title: "Fale com a Ápice Assessoria de Trânsito agora mesmo",
+      title:
+        "Se você recebeu uma notificação do Detran, o prazo para recorrer é curto. Não entregue sua CNH antes de falar com um especialista. ",
       subtitle: (
         <p className="opacity-80">
-          Envie seus dados e receba uma análise agora mesmo:
+          A Ápice pode te ajudar a manter seu direito de dirigir, entre em
+          contato agora e receba uma avaliação gratuita do seu caso.
         </p>
       ),
     },
-    buttonLabel: "Preencha seus dados",
+    buttonLabel: "Falar com especialista no WhatsApp agora",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {

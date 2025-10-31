@@ -83,10 +83,10 @@ function FullImg({ obs }) {
                           {obs && (
                             <MotionDivDownToUp>
                               <div className="flex justify-center mt-12 desktop1:justify-start">
-                                <div className="flex flex-col items-center desktop1:flex-row text-primary">
-                                  {contentLp01.hero.textArea.obsHero.icon}
+                                <div className="flex flex-col items-center desktop1:flex-row text-white">
+                                  {contentLp01.hero.obsHero.icon}
                                   <p className="text-white ml-[10px] text-center mt-[12px] desktop1:mt-0">
-                                    {contentLp01.hero.textArea.obsHero.text}
+                                    {contentLp01.hero.obsHero.text}
                                   </p>
                                 </div>
                               </div>
@@ -167,10 +167,10 @@ function FullImg({ obs }) {
                       {obs && (
                         <MotionDivDownToUp>
                           <div className="flex justify-center mt-12 desktop1:justify-start">
-                            <div className="flex flex-col items-center desktop1:flex-row text-primary">
-                              {contentLp01.hero.textArea.obsHero.icon}
+                            <div className="flex flex-col items-center desktop1:flex-row text-white">
+                              {contentLp01.hero.obsHero.icon}
                               <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
-                                {contentLp01.hero.textArea.obsHero.text}{" "}
+                                {contentLp01.hero.obsHero.text}
                               </p>
                             </div>
                           </div>
