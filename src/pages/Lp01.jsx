@@ -47,7 +47,8 @@ export default function Lp01() {
       <HeroLP fullImg={true} />
       <CtaUrgency />
       <FeaturesLP />
-      <AboutParalaxeLP logo={true} />
+      {/* <AboutParalaxeLP logo={true} /> */}
+      <StepsLpv />
       <WhyUs />
       <Depositions />
       <CtaLP />

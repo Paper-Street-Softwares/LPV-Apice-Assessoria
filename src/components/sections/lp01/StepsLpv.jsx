@@ -12,26 +12,26 @@ export default function StepsLpv() {
     <SectionArea className="bg-neutral-100" paddingtop={true}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <div className="w-[90%]">
-          <SectionHeader
-            className="justify-center hidden text-center desktop1:flex "
+          {/* <SectionHeader
+            className="justify-center hidden text-center desktop1:flex mb-[26px] tablet1:mb-[40px] desktop1:mb-[32px] "
             miniTitle={contentLp01.steps.miniTag}
             sectionHeaderTitle={contentLp01.steps.title}
             sectionHeaderSubtitle={contentLp01.steps.subtitle}
             color=""
             type=""
-            titleColorSet="text-colorBlack"
+            titleColorSet="text-black"
           />
           <SectionHeader
-            className="text-center desktop1:hidden"
+            className="text-center desktop1:hidden mb-[26px] tablet1:mb-[40px] desktop1:mb-[32px]"
             miniTitle={contentLp01.steps.miniTag}
             sectionHeaderTitle={contentLp01.steps.title}
             sectionHeaderSubtitle={contentLp01.steps.subtitle}
             color=""
             type=""
-            titleColorSet="text-colorBlack"
-          />
+            titleColorSet="text-black"
+          /> */}
 
-          <div className="flex flex-col desktop1:flex-row items-center  w-full justify-center gap-[32px] mt-[28px] desktop1:mt-0 ">
+          <div className="flex flex-col desktop1:flex-row items-center w-full justify-center gap-[32px] mt-[28px] desktop1:mt-0 ">
             <HowItWorksCard
               number={contentLp01.steps.cards.card1.stepNumber}
               title={contentLp01.steps.cards.card1.cardTitle}
@@ -52,7 +52,7 @@ export default function StepsLpv() {
             />
           </div>
         </div>
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center desktop1:pt-12">
+        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center desktop1:pt-0">
           <div className="">
             <Button
               aria-label={contentLp01.steps.cards.ariaLabel}
