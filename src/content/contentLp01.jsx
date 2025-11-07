@@ -1,4 +1,5 @@
 import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import bgImg2 from "../assets/imgs/hero/bgHeroInfluencer2.webp";
 import logo from "../assets/imgs/logo/logo.webp";
 import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
@@ -32,6 +33,7 @@ const contentLp01 = {
   },
   hero: {
     bgImg: bgImg,
+    bgImg2: bgImg2,
     logo: {
       logoImg: logo,
       alt: "Logomarca",

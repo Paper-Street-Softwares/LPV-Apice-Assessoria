@@ -17,7 +17,7 @@ function FullImg({ obs }) {
         {/* Imagem de fundo */}
         <div className="relative z-10 bg-no-repeat bg-cover">
           <img
-            src={contentLp01.hero.bgImg}
+            src={contentLp01.hero.bgImg2}
             alt="Fundo do banner principal"
             fetchpriority="high"
             loading="eager"
