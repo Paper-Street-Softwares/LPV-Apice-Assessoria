@@ -30,7 +30,7 @@ function FeaturesLineLP() {
               </div>
 
               {/* Texto à direita da linha */}
-              <div className="flex flex-col justify-center w-1/2 pl-4 mt-4">
+              <div className="flex flex-col justify-center w-1/2 pl-4 mt-4 font-mainFont">
                 <p className="font-semibold text-paragraph2">{step.title}</p>
                 <p className="text-gray-400 text-paragraph1">{step.subtitle}</p>
               </div>
