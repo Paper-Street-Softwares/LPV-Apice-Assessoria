@@ -15,12 +15,15 @@ function FullImg({ obs }) {
         <div className="absolute inset-0 bg-gradient-to-b from-lpvHeroGradientTop to-lpvHeroGradientBot z-0"></div>
 
         {/* Imagem de fundo */}
-        <div
-          className="relative z-10 bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] bg-no-repeat"
-          style={{
-            backgroundImage: `url(${contentLp01.hero.bgImg})`,
-          }}
-        >
+        <div className="relative z-10 bg-no-repeat bg-cover">
+          <img
+            src={contentLp01.hero.bgImg}
+            alt="Fundo do banner principal"
+            fetchpriority="high"
+            loading="eager"
+            className="absolute inset-0 w-full h-full object-cover -z-10"
+          />
+
           {/* Gradiente por cima da imagem */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-lpvHeroGradientBot z-20"></div>
 
