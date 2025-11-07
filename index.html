@@ -153,15 +153,23 @@ Atuação Contra Cassação De CNH,
     <meta name="msapplication-TileColor" content="#ffffff" />
   </head>
   <body>
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/bgHeroInfluencer-CJkqWKSQ.webp"
+      fetchpriority="high"
+    />
+
+    <div id="root"></div>
     <img
       src="/assets/bgHeroInfluencer-CJkqWKSQ.webp"
       alt="Fundo do banner principal"
       fetchpriority="high"
       loading="eager"
+      decoding="async"
       class="absolute inset-0 w-full h-full object-cover -z-10"
     />
 
-    <div id="root"></div>
     <script type="module" src="/src/main.jsx" fetchpriority="high"></script>
   </body>
 </html>
