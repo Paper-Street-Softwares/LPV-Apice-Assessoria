@@ -22,6 +22,7 @@ function FullImg({ obs }) {
             fetchpriority="high"
             loading="eager"
             className="absolute inset-0 w-full h-full object-cover -z-10"
+            decoding="async"
           />
 
           {/* Gradiente por cima da imagem */}
