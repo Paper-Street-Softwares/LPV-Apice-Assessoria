@@ -45,15 +45,17 @@ export default function Lp01() {
   return (
     <div>
       <HeroLP fullImg={true} />
-      <CtaUrgency />
-      <FeaturesLP />
-      {/* <AboutParalaxeLP logo={true} /> */}
-      <StepsLpv />
-      <WhyUs />
-      <Depositions />
-      <CtaLP />
-      {/* <Faq /> */}
-      <ContactLP />
+      <main>
+        <CtaUrgency />
+        <FeaturesLP />
+        {/* <AboutParalaxeLP logo={true} /> */}
+        <StepsLpv />
+        <WhyUs />
+        <Depositions />
+        <CtaLP />
+        {/* <Faq /> */}
+        <ContactLP />
+      </main>
       <FooterLP />
       {/* <LPFloatingWhatsappButton /> */}
       <FloatingWhatsappButton />
