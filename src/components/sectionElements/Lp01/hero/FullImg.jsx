@@ -62,6 +62,7 @@ function FullImg({ obs }) {
                           <div className="flex justify-center w-full desktop1:justify-start">
                             <MotionDivDownToUp>
                               <Button
+                                removeAnchor={false}
                                 aria-label={
                                   contentLp01.hero.textArea.ctaButtonAriaLabel
                                 }
