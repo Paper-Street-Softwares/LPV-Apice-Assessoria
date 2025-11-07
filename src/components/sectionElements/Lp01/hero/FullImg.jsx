@@ -21,8 +21,7 @@ function FullImg({ obs }) {
             alt="Fundo do banner principal"
             fetchpriority="high"
             loading="eager"
-            className="inset-0 w-full h-full object-cover "
-            //  className="absolute -z-10 inset-0 w-full h-full object-cover "
+            className="absolute -z-10 inset-0 w-full h-full object-cover "
             decoding="async"
           />
 
