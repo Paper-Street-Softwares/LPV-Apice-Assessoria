@@ -52,7 +52,7 @@ export default function Button({
     <CustomTag
       tagName={CustomTagName}
       {...(removeTarget ? {} : { target: "_blank" })}
-      {...(removeAnchor ? {} : { href: finalButtonLink })}
+      href={removeAnchor ? undefined : finalButtonLink || getWhatsappLink()}
       className="inline-block max-w-full w-fit"
     >
       {animation ? (
