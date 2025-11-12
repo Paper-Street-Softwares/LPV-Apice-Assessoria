@@ -29,6 +29,8 @@ export default function Depositions() {
                     <img
                       src={content.texts.testimonials.images.img1.img}
                       alt={content.texts.testimonials.images.img1.alt}
+                      width="185"
+                      height="500"
                     />
                   </div>
                 </div>
@@ -45,6 +47,8 @@ export default function Depositions() {
                     <img
                       src={content.texts.testimonials.images.img3.img}
                       alt={content.texts.testimonials.images.img3.alt}
+                      width="185"
+                      height="500"
                     />
                   </div>
                 </div>
@@ -53,6 +57,8 @@ export default function Depositions() {
                     <img
                       src={content.texts.testimonials.images.img4.img}
                       alt={content.texts.testimonials.images.img4.alt}
+                      width="185"
+                      height="500"
                     />
                   </div>
                 </div>
@@ -61,6 +67,8 @@ export default function Depositions() {
                     <img
                       src={content.texts.testimonials.images.img5.img}
                       alt={content.texts.testimonials.images.img5.alt}
+                      width="185"
+                      height="500"
                     />
                   </div>
                 </div>
@@ -70,6 +78,8 @@ export default function Depositions() {
                     <img
                       src={content.texts.testimonials.images.img6.img}
                       alt={content.texts.testimonials.images.img6.alt}
+                      width="185"
+                      height="500"
                     />
                   </div>
                 </div>
@@ -78,6 +88,8 @@ export default function Depositions() {
                     <img
                       src={content.texts.testimonials.images.img7.img}
                       alt={content.texts.testimonials.images.img7.alt}
+                      width="185"
+                      height="500"
                     />
                   </div>
                 </div>
@@ -86,6 +98,8 @@ export default function Depositions() {
                     <img
                       src={content.texts.testimonials.images.img8.img}
                       alt={content.texts.testimonials.images.img8.alt}
+                      width="185"
+                      height="500"
                     />
                   </div>
                 </div>
