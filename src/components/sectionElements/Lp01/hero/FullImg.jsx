@@ -17,12 +17,10 @@ function FullImg({ obs }) {
         {/* Imagem de fundo */}
         <div className="relative z-10 bg-no-repeat bg-cover">
           <img
-            src={contentLp01.hero.bgImg2}
+            src="/bgHeroInfluencer2.webp"
             alt="Fundo do banner principal"
             fetchpriority="high"
-            loading="eager"
             className="absolute -z-10 inset-0 w-full h-full object-cover "
-            decoding="async"
           />
 
           {/* Gradiente por cima da imagem */}
