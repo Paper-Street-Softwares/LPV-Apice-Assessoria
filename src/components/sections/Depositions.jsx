@@ -39,6 +39,8 @@ export default function Depositions() {
                     <img
                       src={content.texts.testimonials.images.img2.img}
                       alt={content.texts.testimonials.images.img2.alt}
+                      width="185"
+                      height="500"
                     />
                   </div>
                 </div>
